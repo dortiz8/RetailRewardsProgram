@@ -1,0 +1,14 @@
+﻿
+@model User
+
+<h2>@ViewBag.Title</h2>
+
+  @foreach(var u in Model.PurchaseHistory){
+    <li>
+        <div class="listItem">
+            <h5>Product Name: <b>@u.ProductName</b></h5>
+            <p>Date: @u.MonthDate.ToShortDateString()</p>
+            <p>Cost: <b>$@u.Cost</b></p>
+        </div>
+    </li>
+  }

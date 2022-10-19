@@ -1,0 +1,61 @@
+[
+  // The classes only consider one purchase per transaction.
+  // We need to change the model to take on multiple products each with a cost under the same transaction MonthDate.
+  // Possible change will be in the form of an array of products of possbile type Product class. 
+  {
+    "Id": 0,
+    "ProductName": "T-Shirt",
+    "MonthDate": "2022-01-10T00:00:00",
+    "Cost": 15.99
+  },
+  {
+    "Id": 0,
+    "ProductName": "Video Game Console",
+    "MonthDate": "2022-02-01T00:00:00",
+    "Cost": 599.99
+  },
+  {
+    "Id": 0,
+    "ProductName": "Headphones",
+    "MonthDate": "2022-03-10T00:00:00",
+    "Cost": 120.00
+  },
+  {
+    "Id": 0,
+    "ProductName": "Mug",
+    "MonthDate": "2022-01-11T00:00:00",
+    "Cost": 5.99
+  },
+  {
+    "Id": 0,
+    "ProductName": "Bluetooth Speaker",
+    "MonthDate": "2022-02-01T00:00:00",
+    "Cost": 140.00
+  },
+  {
+    "Id": 0,
+    "ProductName": "TV",
+    "MonthDate": "2022-03-20T00:00:00",
+    "Cost": 750.00
+  },
+  {
+    "Id": 0,
+    "ProductName": "T-Shirt",
+    "MonthDate": "2022-01-01T00:00:00",
+    "Cost": 15.99
+  },
+  {
+    "Id": 0,
+    "ProductName": "Bedroom Set",
+    "MonthDate": "2022-02-05T00:00:00",
+    "Cost": 135.99
+  },
+  {
+    "Id": 0,
+    "ProductName": "Toothpaste",
+    "MonthDate": "2022-03-25T00:00:00",
+    "Cost": 5.99
+  }
+
+
+]

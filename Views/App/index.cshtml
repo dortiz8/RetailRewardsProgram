@@ -1,0 +1,15 @@
+﻿@model IEnumerable<User>
+
+<div>
+    <h4>Rewards List</h4>
+    @foreach(var u in Model){
+        <li>
+            <div class="listItem">
+                <h5><b>@u.Name</b></h5>
+                <p>Phone: @u.PhoneNumber</p>
+                <p>Reward Points: <b>@u.Points</b></p>
+                <p><a asp-controller="App" asp-action="Details" asp-route-id="@u.Id">Details</a></p>
+            </div>
+        </li>
+    }
+</div>

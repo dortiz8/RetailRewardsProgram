@@ -1,0 +1,8 @@
+{
+  "ConnectionStrings": {
+    "UserContextDb": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=UserDb;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true"
+  },
+  "Paths": {
+    "JsonPurchases": "Data/purchases.json"
+  }
+}

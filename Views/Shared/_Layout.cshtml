@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Rewards Program</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+   
+</head>
+<body>
+    <header>
+       
+        <menu class="navMenu">
+            <h3 class="mainTitle">Retail Rewards Program: Testing Server Side Rendering</h3>
+            <ul>
+                <li><a asp-controller="App" asp-action="Index">Home</a></li>
+            </ul>
+        </menu>
+    </header>
+    <section>
+        @RenderBody()  
+    </section>
+    <footer>Copyright 2022 Dante Ortiz</footer>
+</body>
+
+</html>
